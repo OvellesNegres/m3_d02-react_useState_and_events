@@ -1,9 +1,9 @@
 import Counter from "./components/Counter";
-import { useState } from "react";
 import WeatherWidget from "./components/WeatherWidget";
+import SpecialDiv from "./components/SpecialDiv";
 
 function App() {
-  return <h1>Hello Iornhackers!</h1>
+  return ( <Counter />);
 }
 
 export default App;
